@@ -1,5 +1,6 @@
 # Assignment_5
 Calculator
+
 I created a simple calculator with the following functionalities using HTML, CSS, and JavaScript:
 
 1) Addition
