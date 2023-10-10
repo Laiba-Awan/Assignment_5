@@ -1,0 +1,68 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(172, 150, 150);
+}
+.cont1 {
+  max-width: 360px;
+  box-shadow: 0 0 10px black;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  background-color: black;
+}
+.cont2 {
+  max-width: 360px;
+  box-shadow: 0 0 10px black;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-color: black;
+}
+.exp-input {
+  text-indent: 10px;
+  font-size: 25px;
+  color: rgb(145, 145, 145);
+}
+.output {
+  text-align: right;
+  font-size: 30px;
+}
+.mybtn {
+  background-color: rgb(39, 38, 38);
+  border-radius: 25px;
+  width: 70px;
+  height: 70px;
+  border: transparent;
+  box-shadow: 0 0 2px;
+}
+.o-btn:hover {
+  box-shadow: 0 0 10px orange;
+  background-color: orange;
+}
+.o-btn {
+  background-color: rgb(225, 149, 8);
+  box-shadow: 0 0 2px;
+  box-shadow: 0 0 30px inset rgb(162, 76, 6);
+}
+.c-btn {
+  background-color: rgb(73, 73, 73);
+  box-shadow: 0 0 2px;
+  box-shadow: 0 0 20px inset rgb(24, 24, 24);
+}
+.c-btn:hover {
+  box-shadow: 0 0 10px rgb(246, 197, 106);
+  background-color: rgb(73, 73, 73);
+}
+.mid-btn {
+  box-shadow: 0 0 20px inset rgb(23, 21, 21);
+}
+.mid-btn:hover {
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  background-color: rgb(39, 38, 38);
+}
+.hr {
+  color: rgb(192, 192, 192);
+}
