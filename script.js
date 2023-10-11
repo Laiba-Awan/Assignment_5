@@ -32,6 +32,6 @@ function backSpace() {
 }
 // FUNCTION TO GET PERCENTAGE------
 function percentage() {
-  const result = eval(exp) / 100;
+  const result = eval(exp) * 100;
   output.textContent = result;
 }
