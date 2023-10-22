@@ -1,13 +1,19 @@
 const output = document.querySelector(".output");
 const inputExp = document.querySelector(".exp-input");
 
+const regex = /(\+\+|\+-|\+\*|\+\/|\+\.|--|-\+|-\*|-\/|-\.|\*\+|\*-|\*\/|\*\.|\*\*|\/\+|\/-|\/\*|\/\/|\/\.|\.\.|\.\+|\.\*|\.-|\.\/)/g;
+
 let exp = "";
 
 // FUNCTION TO CREATE AN EXP----
 function makeExp(z) {
-  exp = exp + z;
-  console.log(exp);
-  inputExp.textContent = exp;
+  const temp = exp + z;
+  if (!regex.test(temp)) {
+    exp = exp + z;
+    inputExp.textContent = exp;
+  }
+  console.log("exp", exp);
+  console.log("regex", regex.test(temp));
 }
 // FUNCTION TO CALCULATE WITH EQUAL-----
 function calculate() {
