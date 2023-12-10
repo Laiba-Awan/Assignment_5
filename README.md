@@ -10,4 +10,4 @@ I created a simple calculator with the following functionalities using HTML, CSS
 5) Percentage
 6) Square Root
 
-and I also created a simple yet beautiful responsive interface using Bootstrap.
+and I used regex to add necessary validations with a simple yet beautiful responsive interface using Bootstrap.
